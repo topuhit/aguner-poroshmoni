@@ -37,7 +37,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: rgb(210, 0, 0);
+    color: #2A6112;
     cursor: pointer;
 }
 * {

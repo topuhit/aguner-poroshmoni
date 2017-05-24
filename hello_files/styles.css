@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "TitlingGothicFB Comp";
+    font-style: normal;
+    font-weight: bold;
+    src: url("titling_gothic_fb_compbold-webfont.woff2.txt") format("woff2"), url("urn:not-loaded:titling_gothic_fb_compbold-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "TitlingGothicFB Normal";
+    font-style: normal;
+    font-weight: 100;
+    src: url("titling_gothic_fb_normalthin-webfont.woff2.txt") format("woff2"), url("urn:not-loaded:titling_gothic_fb_normalthin-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "TitlingGothicFB Extended";
+    font-style: normal;
+    font-weight: 100;
+    src: url("titling_gothic_fb_extendedthin-webfont.woff2.txt") format("woff2"), url("urn:not-loaded:titling_gothic_fb_extendedthin-webfont.woff") format("woff");
+}
+body {
+    font-family: "TitlingGothicFB Normal", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0px;
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    position: relative;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    letter-spacing: 1px;
+    cursor: url("cursor.png") 25 25, auto;
+}
+h1, h2, h3, h4, p {
+    line-height: 1.5;
+    text-align: center;
+}
+a {
+    color: #51bd22;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(210, 0, 0);
+    cursor: pointer;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+#intro {
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90vh;
+    color: rgb(255, 255, 255);
+    font-family: "TitlingGothicFB Comp";
+    font-weight: bold;
+}
+#cover {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+}
+.hero {
+    font-family: "TitlingGothicFB Comp", sans-serif;
+    color: white;
+    font-size: 19vh;
+    font-weight: bold;
+    line-height: 0.95;
+    margin: auto;
+    text-align: center;
+}
+h2 {
+    font-family: "TitlingGothicFB Comp", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+.events {
+    overflow: auto;
+    width: 80%;
+    margin: 5rem auto;
+
+}
+.event {
+    width: 33%;
+    float: left;
+    padding-right: 1rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+}
+.event h3 {
+    font-family: "TitlingGothicFB Extended";
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.event h4 {
+    margin-bottom: 0px;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.content p {
+    margin: auto;
+    max-width: 80%;
+    font-size: 1.8rem;
+    font-weight: 100;
+    line-height: 1.7;
+    text-align: center;
+}
+.logo {
+    width: 200px;
+    position: fixed !important;
+    z-index: 20;
+}
+.logo img {
+    width: 100%;
+    opacity: 1;
+    transition: opacity 200ms ease 0s;
+}
+.logo img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.to-whom {
+    top: -20px;
+    left: -40px;
+}
+.to-whom img {
+    transform: rotate(-10deg);
+}
+.concern img {
+    transform: rotate(30deg);
+}
+.concern {
+    right: -20px;
+    bottom: -20px;
+}
+main {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    width: 80%;
+    margin: 10rem auto;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+#title, header, footer {
+    margin: 1rem;
+    line-height: 1.8;
+    font-family: "TitlingGothicFB Extended", sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    overflow: auto;
+    font-size: 1.2rem;
+    text-align: center;
+}
+footer {
+    margin: 3rem 0px;
+}
+#statement {
+    color: rgb(0, 0, 0);
+    padding: 3rem 1rem;
+    width: 100%;
+    font-size: 15vh;
+    font-family: "TitlingGothicFB Comp", sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: uppercase;
+    text-align: center;
+}
+.blink {
+    animation: 1s linear 0s normal none infinite running blinker;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 850px) {
+    .event {
+        width: 100%;
+    }
+    main, .events, footer {
+        width: 95%;
+        margin-top: 1rem;
+    }
+    .content p {
+        max-width: 95%;
+        font-size: 1.5rem;
+    }
+    .hero {
+        font-size: 25vw;
+    }
+    header, footer, h1, #title {
+        font-size: 1rem;
+    }
+    #statement, h2 {
+        max-width: 90%;
+        font-size: 15vw;
+    }
+    .logo {
+        width: 33%;
+    }
+}

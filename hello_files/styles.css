@@ -2,19 +2,19 @@
     font-family: "TitlingGothicFB Comp";
     font-style: normal;
     font-weight: bold;
-    src: url("titling_gothic_fb_compbold-webfont.woff2.txt") format("woff2"), url("urn:not-loaded:https://topuhit.github.io/aguner-poroshmoni/titling_gothic_fb_compbold-webfont.woff") format("woff");
+    src: url("titling_gothic_fb_compbold-webfont.woff2.txt") format("woff2"), url("urn:not-loaded:titling_gothic_fb_compbold-webfont.woff") format("woff");
 }
 @font-face {
     font-family: "TitlingGothicFB Normal";
     font-style: normal;
     font-weight: 100;
-    src: url("titling_gothic_fb_normalthin-webfont.woff2.txt") format("woff2"), url("urn:not-loaded:https://topuhit.github.io/aguner-poroshmoni/titling_gothic_fb_normalthin-webfont.woff") format("woff");
+    src: url("titling_gothic_fb_normalthin-webfont.woff2.txt") format("woff2"), url("urn:not-loaded:titling_gothic_fb_normalthin-webfont.woff") format("woff");
 }
 @font-face {
     font-family: "TitlingGothicFB Extended";
     font-style: normal;
     font-weight: 100;
-    src: url("titling_gothic_fb_extendedthin-webfont.woff2.txt") format("woff2"), url("urn:not-loaded:https://topuhit.github.io/aguner-poroshmoni/titling_gothic_fb_extendedthin-webfont.woff") format("woff");
+    src: url("titling_gothic_fb_extendedthin-webfont.woff2.txt") format("woff2"), url("urn:not-loaded:titling_gothic_fb_extendedthin-webfont.woff") format("woff");
 }
 body {
     font-family: "TitlingGothicFB Normal", sans-serif;

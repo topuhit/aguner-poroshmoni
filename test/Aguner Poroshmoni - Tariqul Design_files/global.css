@@ -1,0 +1,51 @@
+/* Effective stylesheet produced by snapshot save */
+.spinner_circle.part1 { animation-delay: -0.8s; }
+.spinner_circle.part2 { animation-delay: -0.7s; }
+.spinner_circle.part3 { animation-delay: -0.6s; }
+.spinner_circle.part3 { animation-delay: -0.5s; }
+.spinner_circle.part4 { animation-delay: -0.4s; }
+.spinner_circle.part5 { animation-delay: -0.3s; }
+.spinner_circle.part6 { animation-delay: -0.2s; }
+.spinner_circle.part7 { animation-delay: -0.1s; }
+.spinner_circle.part8 { animation-delay: 0s; }
+@keyframes spinner {
+  0% { background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+  80% { background: rgb(178, 178, 178) none repeat scroll 0% 0%; }
+  100% { background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+}
+@keyframes spinner {
+  0% { background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+  80% { background: rgb(178, 178, 178) none repeat scroll 0% 0%; }
+  100% { background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+}
+@keyframes rotation {
+  0% { transform: rotate(359deg); }
+  100% { transform: rotate(0deg); }
+}
+div.spinner_circle { animation: 0.9s ease 0s normal none infinite running spinner; transform-origin: 0% 50% 0px; border-radius: 2px; position: absolute; height: 4px; width: 4px; left: 10px; top: 10px; }
+.retinaSpinner { border: 0px solid red; z-index: 2000000000; position: relative; height: 20px; width: 20px; }
+#toolset a { background: transparent url("toolset-sprite.svg") no-repeat scroll 0px 0px; display: block; height: 24px; width: 24px; margin: 0px; padding: 0px; }
+#toolset_admin a { background-position: 0px 0px; }
+#toolset_admin a:hover { background-position: 0px -24px; }
+#toolset_follow_pair a { background-position: -24px 0px; margin-top: 1px; }
+#toolset_follow_pair a:hover { background-position: -24px -24px; }
+#toolset_menu { color: rgb(204, 204, 204); display: none; font-family: "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif; font-size: 10px; margin-right: 25px; overflow: hidden; position: fixed; text-align: left; width: 140px; z-index: 99999; }
+#toolset_menu a { background: rgb(0, 0, 0) none repeat scroll 0% 0%; border-bottom: 1px solid rgb(51, 51, 51); color: rgb(153, 153, 153); display: block; height: 24px; line-height: 24px; overflow: hidden; padding: 0px 10px; text-decoration: none; }
+#toolset_menu a:hover { background: rgb(51, 51, 51) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+#toolset_menu a:active { padding-top: 1px; height: 23px; }
+#toolset_menu a.toolset_first { border-top-left-radius: 3px; border-top-right-radius: 3px; }
+#toolset_menu a.toolset_last { border-bottom: 0px none; padding-bottom: 1px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; }
+#follow_popup { background: rgb(237, 237, 237) none repeat scroll 0% 0%; display: none; margin: -87px 0px 0px -210px; position: fixed; top: 40%; left: 50%; height: 174px; width: 420px; z-index: 2147483647; font-family: sans-serif; letter-spacing: 0px; word-spacing: 0px; font-weight: normal; text-decoration: none; border-radius: 4px; box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.3); }
+#follow_popup .follow_popup_logged_in_as { color: rgb(153, 153, 153); font-size: 12px; line-height: 12px; font-family: Menlo,Monaco,monospace; position: absolute; bottom: 19px; left: 19px; z-index: 9; }
+#follow_popup .follow_popup_logged_in_as a { margin-left: 4px; }
+#follow_popup_actions { position: absolute; bottom: 12px; right: 12px; z-index: 9; }
+#follow_popup_actions a { display: block; float: left; color: rgb(255, 255, 255); text-decoration: none; font-size: 14px; margin-left: 8px; padding: 7px 0px; width: 80px; text-align: center; line-height: 14px; border-radius: 3px; }
+#follow_popup #follow_popup_actions a.follow_popup_ok { background: rgb(8, 195, 101) none repeat scroll 0% 0%; font-weight: bold; }
+#follow_popup #follow_popup_actions a.follow_popup_cancel { background: rgb(204, 204, 204) none repeat scroll 0% 0%; }
+#follow_popup #follow_popup_actions a:hover { background: rgb(0, 0, 0) none repeat scroll 0% 0%; box-shadow: 0px 1px 3px rgb(153, 153, 153); }
+#follow_popup #follow_popup_actions a:active { background: rgb(102, 102, 102) none repeat scroll 0% 0%; color: rgb(255, 255, 255); box-shadow: 0px 1px 4px rgb(33, 33, 33) inset; }
+#follow_popup_note { position: absolute; line-height: 163px; top: 0px; left: 50px; right: 50px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 18px; color: rgb(51, 51, 51); }
+#following_loadspin { display: none; position: absolute; top: 15px; right: 15px; height: 20px; width: 20px; z-index: 9; }
+a#follow_popup_select { color: rgb(204, 204, 204); padding-bottom: 2px; border-bottom: 1px solid rgb(221, 221, 221); text-decoration: none; }
+a#follow_popup_select:hover { color: rgb(51, 51, 51); border-bottom: 1px solid rgb(51, 51, 51); background: transparent none repeat scroll 0% 0%; }
+a#follow_popup_select:active { color: rgb(102, 102, 102); border-bottom: 1px solid rgb(102, 102, 102); background: transparent none repeat scroll 0% 0%; }

@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "wf_segoe-ui_normal";
-  src: url("https://github.com/dastiw1/ice-tc.com/blob/master/fonts/wf_segoe-ui_normal.woff") format("woff");
+  src: url("wf_segoe-ui_normal.woff") format("woff");
 }
 
 body {

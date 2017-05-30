@@ -45,16 +45,16 @@ a:hover {
     margin: 0px;
 }
 #intro {
-    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
-    position: absolute;
+/*    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    position: relative;
     top: 0px;
-    left: 0px;
-    height: 100vh;
-    width: 100vw;
+    left: 0px;*/
+    height: 99vh;
+    width: 99vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 90vh;
+    font-size: 15vh;
     color: rgb(255, 255, 255);
     font-family: "TitlingGothicFB Comp";
     font-weight: bold;

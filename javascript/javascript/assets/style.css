@@ -1,0 +1,89 @@
+/* first for IE 4–8 */
+@font-face {
+  font-family: DINWebPro-Bold;
+  src: url("DINWebPro-Bold.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: DINWebPro-Bold;
+  src: url("DINWebPro-Bold.woff") format("woff");
+}
+
+/* go on with normal style definitions */
+body { 
+  font-family: DINWebPro-Bold, sans-serif;
+  font-size: 52px;
+  /*color: gray;*/
+  background: #ddd;
+  line-height: 1.2em;
+}
+
+#email {
+	font-size: 33px;
+}
+
+
+a:hover {
+   
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+} 
+a:link {
+    
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+img {
+    display: block;
+    margin: auto;
+  
+}
+img:hover {
+  cursor: pointer;
+}
+h1 {
+	text-align: center;
+    }
+
+.footer {
+	padding-bottom: 800px;
+}
+
+a {
+text-decoration: none;
+
+}
+
+.mycontent {
+  border: black 10px solid;
+  padding: 50px;
+}
+
+h4 {
+  font-size: 30px;
+  text-align: left;
+  background-color: #595959;
+  text-shadow: 1px 2px #2f2f2f;
+  padding: 30px;
+  color: white;
+  line-height: 1.5em;
+}
+
+
+
+button {
+  font-size: 30px;
+  text-align: center;
+}
+
+.ok {
+    text-align: center;
+}

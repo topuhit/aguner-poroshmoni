@@ -1,9 +1,28 @@
-/* first for IE 4–8 */
+@font-face {
+  font-family: DINWebPro-Medium;
+  src: url("DINWebPro-Medium.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: DINWebPro-Medium;
+  src: url("DINWebPro-Medium.woff") format("woff");
+}
+
 @font-face {
   font-family: DINWebPro-Bold;
   src: url("DINWebPro-Bold.eot");
 }
+@font-face {
+  font-family: DINWebPro-Light;
+  src: url("DINWebPro-Light.eot");
+}
 
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: DINWebPro-Light;
+  src: url("DINWebPro-Light.woff") format("woff");
+}
 /* then for WOFF-capable browsers */
 @font-face {
   font-family: DINWebPro-Bold;
@@ -12,7 +31,7 @@
 
 /* go on with normal style definitions */
 body { 
-  font-family: DINWebPro-Bold, sans-serif;
+  font-family: DINWebPro-Medium, sans-serif;
   font-size: 52px;
   /*color: gray;*/
   background: #ddd;
@@ -50,6 +69,7 @@ img:hover {
   cursor: pointer;
 }
 h1 {
+  font-family: DINWebPro-Bold, sans-serif;
 	text-align: center;
     }
 
@@ -68,13 +88,20 @@ text-decoration: none;
 }
 
 h4 {
-  font-size: 30px;
+  font-family: DINWebPro-Light, sans-serif;
+  font-size: 28px;
   text-align: left;
   background-color: #595959;
-  text-shadow: 1px 2px #2f2f2f;
   padding: 30px;
   color: white;
-  line-height: 1.5em;
+  line-height: 1.2em;
+}
+h5 {
+  font-family: DINWebPro-Light, sans-serif;
+  font-size: 13px;
+  text-align: left;
+  padding: 30px;
+  line-height: 1.35em
 }
 
 

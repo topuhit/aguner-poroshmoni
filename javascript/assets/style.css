@@ -33,6 +33,7 @@
 body { 
   font-family: DINWebPro-Medium, sans-serif;
   font-size: 52px;
+  font-weight: normal;
   /*color: gray;*/
   background: #ddd;
   line-height: 1.2em;
@@ -70,6 +71,7 @@ img:hover {
 }
 h1 {
   font-family: DINWebPro-Bold, sans-serif;
+  font-weight: normal;
 	text-align: center;
     }
 
@@ -91,6 +93,7 @@ h4 {
   font-family: DINWebPro-Light, sans-serif;
   font-size: 28px;
   text-align: left;
+  font-weight: normal;
   background-color: #595959;
   padding: 30px;
   color: white;
@@ -99,6 +102,7 @@ h4 {
 h5 {
   font-family: DINWebPro-Light, sans-serif;
   font-size: 13px;
+  font-weight: normal;
   text-align: left;
   padding: 30px;
   line-height: 1.35em

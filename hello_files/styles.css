@@ -1,23 +1,17 @@
 @font-face {
-    font-family: "TitlingGothicFB Comp";
-    font-style: normal;
-    font-weight: bold;
-    src: url("titling_gothic_fb_compbold-webfont.woff2.txt") format("woff2"), url("titling_gothic_fb_compbold-webfont.woff") format("woff");
-}
-@font-face {
-    font-family: "TitlingGothicFB Normal";
-    font-style: normal;
-    font-weight: 100;
-    src: url("titling_gothic_fb_normalthin-webfont.woff2.txt") format("woff2"), url("titling_gothic_fb_normalthin-webfont.woff") format("woff");
-}
-@font-face {
     font-family: "TitlingGothicFB Extended";
     font-style: normal;
     font-weight: 100;
     src: url("titling_gothic_fb_extendedthin-webfont.woff2.txt") format("woff2"), url("titling_gothic_fb_extendedthin-webfont.woff") format("woff");
 }
+
+@font-face {
+  font-family: "wf_segoe-ui_normal";
+  src: url("https://github.com/dastiw1/ice-tc.com/blob/master/fonts/wf_segoe-ui_normal.woff") format("woff");
+}
+
 body {
-    font-family: "TitlingGothicFB Normal", sans-serif;
+    font-family: "wf_segoe-ui_normal", sans-serif;
     font-weight: 100;
     font-size: 16px;
     margin: 0px;
@@ -45,7 +39,7 @@ a:hover {
     margin: 0px;
 }
 #intro {
-/*    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+  /*  background: rgb(0, 0, 0) none repeat scroll 0% 0%;
     position: relative;
     top: 0px;
     left: 0px;*/
@@ -56,7 +50,7 @@ a:hover {
     justify-content: center;
     font-size: 15vh;
     color: rgb(255, 255, 255);
-    font-family: "TitlingGothicFB Comp";
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 #cover {
@@ -67,7 +61,7 @@ a:hover {
     background: rgb(0, 0, 0) none repeat scroll 0% 0%;
 }
 .hero {
-    font-family: "TitlingGothicFB Comp", sans-serif;
+    font-family: "wf_segoe-ui_normal", sans-serif;
     color: white;
     font-size: 19vh;
     font-weight: bold;
@@ -76,7 +70,7 @@ a:hover {
     text-align: center;
 }
 h2 {
-    font-family: "TitlingGothicFB Comp", sans-serif;
+    font-family: "wf_segoe-ui_normal", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -98,7 +92,7 @@ h2 {
     margin-top: 2rem;
 }
 .event h3 {
-    font-family: "TitlingGothicFB Extended";
+    font-family: "wf_segoe-ui_normal";
     font-weight: 100;
     text-transform: uppercase;
 }
@@ -153,10 +147,10 @@ main {
     text-align: center;
     overflow: hidden;
 }
-#title, header, footer {
+#title, header {
     margin: 1rem;
     line-height: 1.8;
-    font-family: "TitlingGothicFB Extended", sans-serif;
+    font-family: "wf_segoe-ui_normal", sans-serif;
     text-transform: uppercase;
     font-weight: 100;
     overflow: auto;
@@ -165,13 +159,20 @@ main {
 }
 footer {
     margin: 3rem 0px;
+    font-family: "TitlingGothicFB Extended", sans-serif;
+    line-height: 1.8;
+    text-transform: uppercase;
+    font-weight: 100;
+    overflow: auto;
+    font-size: 1.2rem;
+    text-align: center;
 }
 #statement {
     color: rgb(0, 0, 0);
     padding: 3rem 1rem;
     width: 100%;
     font-size: 15vh;
-    font-family: "TitlingGothicFB Comp", sans-serif;
+    font-family: "wf_segoe-ui_normal", sans-serif;
     font-weight: 600;
     line-height: 1.4;
     text-transform: uppercase;
@@ -210,4 +211,5 @@ footer {
     .logo {
         width: 33%;
     }
+
 }

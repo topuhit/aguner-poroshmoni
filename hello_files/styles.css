@@ -84,23 +84,7 @@ h2 {
     margin: 5rem auto;
 
 }
-.event {
-    width: 33%;
-    float: left;
-    padding-right: 1rem;
-    line-height: 1.5;
-    margin-top: 2rem;
-}
-.event h3 {
-    font-family: "wf_segoe-ui_normal";
-    font-weight: 100;
-    text-transform: uppercase;
-}
-.event h4 {
-    margin-bottom: 0px;
-    font-size: 1rem;
-    font-weight: normal;
-}
+
 .content p {
     margin: auto;
     max-width: 80%;
@@ -178,18 +162,14 @@ footer {
     text-transform: uppercase;
     text-align: center;
 }
-.blink {
-    animation: 1s linear 0s normal none infinite running blinker;
-}
+
 @keyframes blinker {
     50% {
         opacity: 0;
     }
 }
 @media screen and (max-width: 850px) {
-    .event {
-        width: 100%;
-    }
+    
     main, .events, footer {
         width: 95%;
         margin-top: 1rem;
